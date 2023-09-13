@@ -1,0 +1,3 @@
+#cronjob script to spark-submit the task every minute
+# m h  dom mon dow   command
+*/1 * * * * /home/kushal/.local/bin/spark-submit --driver-class-path /usr/lib/jvm/java-11-openjdk-amd64/lib/postgresql-42.5.0.jar ./Spark-Final-Project/Final.py
